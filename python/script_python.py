@@ -22,6 +22,6 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 api = KaggleApi()
 api.authenticate()
 
-print(api.dataset_list(search=''))
+#print(api.dataset_list(search=''))
 
 api.dataset_download_files('youssefismail20/olympic-games-1994-2024', path=location, force=True, quiet=False, unzip=True)
